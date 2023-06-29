@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Container from "./components/Container";
-import Note from "./components/Note";
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
 function App() {
   return (
