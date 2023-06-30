@@ -8,3 +8,12 @@ body {
   font-size: 28px;
   font-weight: 600;
 }
+
+.card .header {
+  background-color: #e9ecef;
+  padding: 10px 15px 5px;
+}
+
+.card .content {
+  padding: 10px 15px 20px;
+}

@@ -28,7 +28,7 @@ function Header() {
               </li>
               <li className="nav-item px-3">
                 <a className="nav-link" aria-current="page" href="#">
-                  About Us
+                  About
                 </a>
               </li>
               <li className="nav-item px-3">
