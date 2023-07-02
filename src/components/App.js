@@ -1,25 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Note from "./Note";
-import Notes from "../notes";
+import AddNote from "./AddNote";
+import NoteFeed from "./NoteFeed";
 
 function App() {
+  const [noteList, setNoteList] = useState([]);
+
+  function addNote(note) {
+    setNoteList((prevNotes) => [...prevNotes, note]);
+  }
+
+  function deleteNote(id) {
+    setNoteList((prevNotes) => {
+      return prevNotes.filter((item, index) => {
+        return index !== id;
+      });
+    });
+  }
+
   return (
     <div>
       <Header />
-      <div className="container">
-        <div className="row">
-          {Notes.map((note) => (
-            <Note
-              key={note.key}
-              title={note.title}
-              content={note.content}
-              date={note.date}
-            />
-          ))}
-        </div>
-      </div>
+      <AddNote onAdd={addNote} />
+      <NoteFeed notes={noteList} onDelete={deleteNote} />
       <Footer />
     </div>
   );

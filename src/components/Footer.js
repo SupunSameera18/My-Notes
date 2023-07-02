@@ -6,14 +6,39 @@ function Footer() {
   return (
     <footer className="text-center text-lg-start fixed-bottom bg-dark">
       <div className="container d-flex justify-content-center py-5">
-        <a href="#" type="button" className="btn btn-primary btn-floating mx-2">
-          <Icon icon="ic:baseline-facebook" width="30" height="30" />
+        <a
+          href="mailto:supunsameera18@gmail.com"
+          type="button"
+          className="btn-floating mx-2"
+        >
+          <Icon icon="mdi:gmail" width="50" height="50" />
         </a>
-        <a href="#" type="button" className="btn btn-primary btn-floating mx-2">
-          <Icon icon="mdi:linkedin" width="30" height="30" />
+        <a
+          href="https://www.linkedin.com/in/supun-sameera/"
+          target="_black"
+          rel="noopener noreferrer"
+          type="button"
+          className="btn-floating mx-2"
+        >
+          <Icon icon="mdi:linkedin" width="50" height="50" />
         </a>
-        <a href="#" type="button" className="btn btn-primary btn-floating mx-2">
-          <Icon icon="mdi:github" width="30" height="30" />
+        <a
+          href="https://github.com/SupunSameera18"
+          target="_black"
+          rel="noopener noreferrer"
+          type="button"
+          className="btn-floating mx-2"
+        >
+          <Icon icon="mdi:github" width="50" height="50" />
+        </a>
+        <a
+          href="https://www.facebook.com/sameera.thilakarathna.923/"
+          target="_black"
+          rel="noopener noreferrer"
+          type="button"
+          className="btn-floating mx-2"
+        >
+          <Icon icon="ic:baseline-facebook" width="50" height="50" />
         </a>
       </div>
 

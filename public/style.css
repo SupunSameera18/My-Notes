@@ -9,6 +9,26 @@ body {
   font-weight: 600;
 }
 
+p.navbar-brand {
+  margin: 0;
+}
+
+p.nav-link {
+  margin: 0;
+}
+
+p.nav-link:hover {
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: #e9ecef;
+}
+
+form label {
+  font-weight: 500;
+}
+
 .card .header {
   background-color: #e9ecef;
   padding: 10px 15px 5px;
@@ -16,4 +36,25 @@ body {
 
 .card .content {
   padding: 10px 15px 20px;
+}
+
+iconify-icon {
+  cursor: pointer;
+  color: #1f6bf3;
+}
+
+iconify-icon:hover {
+  color: red;
+}
+
+button {
+  color: #f8f9fa;
+  background-color: #1f6bf3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0c5ed7;
 }
